@@ -123,9 +123,10 @@
         // }
         // FizzBuzz(1);
 
-        function fizzBuzzer(num) {
-            let numArray = [];
-            for (num = 1; num <= 100; num++) {
+        function fizzBuzzer(numArray) {
+            numArray = [];
+
+            for (let num = 1; num <= 100; num++) {
                 if (num % 3 == 0 && num % 5 == 0) {
                     numArray.push("fizzbuzz");
 
@@ -141,7 +142,7 @@
             }
             console.log(numArray);
         }
-        fizzBuzzer(1);
+        fizzBuzzer();
 
     </SCRIPT>
 
