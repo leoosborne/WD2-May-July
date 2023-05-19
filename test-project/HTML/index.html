@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,141 @@
     <title>WD2-Week-1</title>
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>This is a Test</h1>
-    </header>
-    <Main>
-        <p>It is only a test</p> 
-        <section>
-            <p>In the event of an emergency you will be notified where to turn for more information about said emergency. Or <span class="foobar">
-                NOt.</span>
-            </p>
-        </section>
-    </Main>
+    <!-- <script>
+    let myVar = "";
+
+    if (myVar) {
+        console.log("it may be a truthy");
+    }
+    if (!myVar) {
+        console.log("It is falsy");
+    }
+    
+   </script>
+
+    <script>
+        let age = 15;
+        let height = 3.2;
+
+        if (height > 4) {
+            if (age >= 12) {
+                console.log("you can ride");
+            }else{
+                console.log("sorry, too young");
+            }
+             } else {
+                console.log("sorry, you are too short");
+            }
+        
+    </script
+
+    <script>
+        //ternary operator
+        //shorthad way to write if statement
+        //condition ? expression-if-true : expression-if-false"
+        //avoid using too often - hard to read
+        let age = 15;
+        let type = (age>= 18) ? 'adult' : 'minor';
+
+        console.log(type);
+    </script>
+
+    <script>
+        //switch statements
+        let food = "pie";
+
+        switch(food) {
+            case "sushi":   
+                console.log("you can have sushi.");
+                break;
+            case "burger":
+                console.log("you can have burger.");
+                break;
+            case "pizza":
+                console.log("you can have pizza.");
+                break;
+            default:    
+            console.log("you can have whatever.");
+                break;
+
+        }
+    </script>
+
+    <script>
+        //for loop
+        for(let i = 1; i <= 5 ; i++){
+            console.log(i);
+        }
+
+        //for...of loop
+       
+    </script>
+
+    
+
+    <script>
+        var variable = ["Hello, world", "how are you", "nice weather, isn't it"];
+
+        for (var i = 0; i <variable.length;  i++){
+            console.log(variable[i]);
+        }
+        
+
+    </script>-->
+
+    <SCRIPT>
+        // Write a JavaScript program that generates an array of integers from 1 to 100 (inclusive). But:
+
+        // for multiples of 3, add "Fizz" to the array instead of the number
+        // for multiples of 5, add "Buzz" to the array instead of the number
+        // for multiples of 3 and 5, add "FizzBuzz" to the array instead of the number
+        // Your program should return an array containing the results based on the rules above.
+
+        // function
+        // variable
+        // for 
+        // if/elseif
+        // console.log
+
+        // function FizzBuzz (num) {
+
+        //     for( num = 1; num <= 100; num++){
+        //         if (num % 3 == 0 ){
+        //             console.log("fizz");
+        //        }else if (num % 5 == 0){
+        //        console.log("buzz");
+
+        //         }else if (num % 3 == 0 && num % 5 == 0){
+        //             console.log("fizzbuzz");
+        //         }else{
+        //           console.log(num);
+        //         } 
+        //     }
+        // }
+        // FizzBuzz(1);
+
+        function fizzBuzz(num) {
+
+            for (num = 1; num <= 100; num++) {
+                if (num % 3 == 0 && num % 5 == 0) {
+                    console.log("fizzbuzz");
+
+                } else if (num % 5 == 0) {
+                    console.log("buzz");
+
+                } else if (num % 3 == 0) {
+                    console.log("fizz");
+                } else {
+                    console.log(num);
+                }
+            }
+        }
+        fizzBuzz(1);
+
+    </SCRIPT>
 
 </body>
+
 </html>
