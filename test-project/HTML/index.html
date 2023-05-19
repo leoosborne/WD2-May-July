@@ -123,23 +123,25 @@
         // }
         // FizzBuzz(1);
 
-        function fizzBuzz(num) {
-
+        function fizzBuzzer(num) {
+            let numArray = [];
             for (num = 1; num <= 100; num++) {
                 if (num % 3 == 0 && num % 5 == 0) {
-                    console.log("fizzbuzz");
+                    numArray.push("fizzbuzz");
 
                 } else if (num % 5 == 0) {
-                    console.log("buzz");
+                    numArray.push("buzz");
 
                 } else if (num % 3 == 0) {
-                    console.log("fizz");
+                    numArray.push("fizz");
+                    
                 } else {
-                    console.log(num);
+                    numArray.push(num);
                 }
             }
+            console.log(numArray);
         }
-        fizzBuzz(1);
+        fizzBuzzer(1);
 
     </SCRIPT>
 
