@@ -122,11 +122,12 @@
         //     }
         // }
         // FizzBuzz(1);
-
+'use strict'
         function fizzBuzzer() {
-            numArray = [];
+            let numArray = [];
+            let num = 0;
 
-            for (let num = 1; num <= 100; num++) {
+            for ( num = 1; num <= 100; num++) {
                 if (num % 3 == 0 && num % 5 == 0) {
                     numArray.push("fizzbuzz");
 
